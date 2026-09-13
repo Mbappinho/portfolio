@@ -279,7 +279,7 @@ export default function Competences() {
             <Words text="Quatre départements, une rédaction" />
           </h1>
           <p className="comp-chapo mt-8 max-w-[62ch] border-l-[3px] border-red pl-6 font-body text-[clamp(1.15rem,1.8vw,1.5rem)] font-medium leading-snug">
-            «{NBSP}Chaque compétence est rangée là où elle vivrait dans un magazine${' '}: au
+            «{NBSP}Chaque compétence est rangée là où elle vivrait dans un magazine{NBSP}: au
             développement, à l'éditorial, aux systèmes, à l'image. Ouvrez les articles pour lire le
             détail, et la preuve associée.{NBSP}»
           </p>
