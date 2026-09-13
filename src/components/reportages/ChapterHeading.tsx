@@ -44,7 +44,7 @@ export default function ChapterHeading({ num, title }: ChapterHeadingProps) {
     <div ref={root}>
       <div aria-hidden="true" className="ch-rule border-t-2 border-ink" />
       <h2 className="ch-title mt-6 font-grotesk text-[clamp(1.4rem,2.6vw,2.2rem)] font-extrabold uppercase leading-tight tracking-[0.02em]">
-        <span className="mr-3 font-mono font-bold text-red">{num}</span> · {title}
+        <span className="mr-3 font-mono font-bold text-red">{num}</span> · {title}
       </h2>
     </div>
   );

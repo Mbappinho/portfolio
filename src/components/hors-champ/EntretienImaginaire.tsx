@@ -46,7 +46,7 @@ export default function EntretienImaginaire() {
 
   return (
     <section ref={root} aria-label="L'entretien imaginaire">
-      <p className="kicker text-red">L'ENTRETIEN · LA RÉDACTION SE QUESTIONNE ELLE-MÊME</p>
+      <p className="kicker text-red">L'ENTRETIEN · LA RÉDACTION SE QUESTIONNE ELLE-MÊME</p>
       <div className="mt-10">
         {ENTRETIEN.map((qr, i) => (
           <div key={qr.question}>

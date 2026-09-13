@@ -107,7 +107,7 @@ export default function CahierCentral() {
           <div className="grid items-center gap-12 lg:grid-cols-12 lg:gap-6">
             {/* Texte · col. 1–6 */}
             <div className="lg:col-span-6">
-              <p className="cahier-bloc kicker text-red">CAHIER CENTRAL · ESSAI</p>
+              <p className="cahier-bloc kicker text-red">CAHIER CENTRAL · ESSAI</p>
               <h2 className="cahier-bloc mt-4 font-display text-[clamp(2rem,4.5vw,3.8rem)] font-black italic leading-[1.02] tracking-[-0.01em]">
                 Lire <span className="text-red">Le Capital</span> entre deux builds
               </h2>
@@ -140,7 +140,7 @@ export default function CahierCentral() {
                 className="cahier-stamp absolute -left-8 -top-8 hidden w-[130px] md:block lg:-left-12 lg:w-[150px]"
               />
               <figcaption className="mt-4 text-center font-mono text-[0.7rem] uppercase tracking-[0.14em] text-paper/60">
-                FIG. 03 · LA BIBLIOTHÈQUE QUI DÉRANGE, LUMIÈRE DE BUREAU.
+                FIG. 03 · LA BIBLIOTHÈQUE QUI DÉRANGE, LUMIÈRE DE BUREAU.
               </figcaption>
             </figure>
           </div>
@@ -154,7 +154,7 @@ export default function CahierCentral() {
             </p>
             <div aria-hidden="true" className="cahier-rule mx-auto mt-8 h-[2px] w-40 bg-red" />
             <footer className="mt-6 font-mono text-[0.7rem] uppercase tracking-[0.14em] text-paper/60">
-              · D'APRÈS K. M., ADAPTÉ PAR LA RÉDACTION
+              · D'APRÈS K. M., ADAPTÉ PAR LA RÉDACTION
             </footer>
           </blockquote>
         </div>
