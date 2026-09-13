@@ -18,7 +18,7 @@ export default function StubPage({ page, title, subtitle }: StubPageProps) {
   return (
     <div className="mx-auto max-w-container px-5 py-12 md:px-8 md:py-16">
       <p className="font-mono text-[0.7rem] uppercase tracking-[0.14em] text-ink-soft">
-        {EDITION.dateline} · PAGE {page} / 07
+        {EDITION.dateline} · PAGE {page} / 07
       </p>
       <div aria-hidden="true" className="mt-3 border-t border-ink" />
       <p className="kicker mt-10 text-red">Rubrique {page}</p>
