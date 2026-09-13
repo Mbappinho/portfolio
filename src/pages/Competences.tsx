@@ -51,29 +51,29 @@ const RUBRIQUES: Rubrique[] = [
     ],
     articles: [
       {
-        title: 'Python · automatisation & temps réel',
+        title: 'Python · automatisation & temps réel',
         tag: 'LANGAGE',
         body: `Scripts d'automatisation, traitement de données, clients WebSockets, télémétrie. C'est aussi le langage du pipeline de traduction du Reportage N°1.`,
         link: { label: 'Voir le reportage, p. 04', to: '/projets/localisation-wttg3' },
       },
       {
-        title: 'JavaScript · interfaces utiles',
+        title: 'JavaScript · interfaces utiles',
         tag: 'LANGAGE',
         body: `Applications web monopage, calculs côté client, rendu de tableaux de données. Langage du Tarkov Barter Scanner.`,
         link: { label: 'Voir le reportage, p. 05', to: '/projets/tarkov-barter-scanner' },
       },
       {
-        title: 'HTML / CSS · la page comme matière',
+        title: 'HTML / CSS · la page comme matière',
         tag: 'LANGAGE',
         body: `Intégration soignée, responsive, sémantique. Ce site est ma dernière maquette en date.`,
       },
       {
-        title: 'Shell scripting · la colle des systèmes',
+        title: 'Shell scripting · la colle des systèmes',
         tag: 'OUTIL',
         body: `Scripts de déploiement, sauvegardes, tâches planifiées sur serveurs Linux et Windows.`,
       },
       {
-        title: 'Git & GitHub · publier comme une rédaction',
+        title: 'Git & GitHub · publier comme une rédaction',
         tag: 'PRATIQUE',
         body: `Historiques propres, README soignés, releases versionnées, documentation${NBSP}: le dépôt comme publication.`,
         link: { label: 'Voir le dépôt GitHub', to: IDENTITY.githubUrl, external: true },
@@ -271,15 +271,15 @@ export default function Competences() {
         {/* ── Section 1 · En-tête ──────────────────────────────────────── */}
         <header>
           <p className="font-mono text-[0.7rem] uppercase tracking-[0.14em] text-ink-soft">
-            {EDITION.dateline} · PAGE 03 / 07
+            {EDITION.dateline} · PAGE 03 / 07
           </p>
           <div aria-hidden="true" className="comp-rule mt-3 border-t border-ink" />
-          <p className="comp-kicker kicker mt-10 text-red">RUBRIQUES · PAGE 03</p>
+          <p className="comp-kicker kicker mt-10 text-red">RUBRIQUES · PAGE 03</p>
           <h1 className="comp-title mt-4 font-display text-[clamp(2.6rem,6.5vw,6rem)] font-black leading-[0.95] tracking-[-0.02em]">
             <Words text="Quatre départements, une rédaction" />
           </h1>
           <p className="comp-chapo mt-8 max-w-[62ch] border-l-[3px] border-red pl-6 font-body text-[clamp(1.15rem,1.8vw,1.5rem)] font-medium leading-snug">
-            «{NBSP}Chaque compétence est rangée là où elle vivrait dans un magazine{NBSP}: au
+            «{NBSP}Chaque compétence est rangée là où elle vivrait dans un magazine${' '}: au
             développement, à l'éditorial, aux systèmes, à l'image. Ouvrez les articles pour lire le
             détail, et la preuve associée.{NBSP}»
           </p>

@@ -157,13 +157,13 @@ export default function Contact() {
       <div className="mx-auto max-w-container px-5 py-12 md:px-8 md:py-16">
         {/* Dateline + folio courant (règle éditoriale §3) */}
         <p className="font-mono text-[0.7rem] uppercase tracking-[0.14em] text-ink-soft">
-          {EDITION.dateline} · PAGE 07 / 07
+          {EDITION.dateline} · PAGE 07 / 07
         </p>
         <div aria-hidden="true" className="ct-rule-top mt-3 border-t border-ink" />
 
         {/* §1 · En-tête */}
         <header className="mt-10">
-          <p className="ct-kicker kicker text-red">Colophon · Page 07</p>
+          <p className="ct-kicker kicker text-red">Colophon · Page 07</p>
           <h1 className="mt-4 font-display text-[clamp(2.6rem,6.5vw,6rem)] font-black leading-[0.95] tracking-[-0.02em]">
             <Words text="Le mot de la fin" wordClass="ct-title-word" />
           </h1>
@@ -347,7 +347,7 @@ export default function Contact() {
               <p className="font-mono text-[0.7rem] uppercase leading-relaxed tracking-[0.14em] text-ink-soft">
                 {EDITION.copyright}
                 <br />
-                {EDITION.issn} · {EDITION.dateline}
+                {EDITION.issn} · {EDITION.dateline}
               </p>
             </div>
           </div>
