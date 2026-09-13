@@ -241,7 +241,7 @@ export default function Home() {
               />
             </div>
             <figcaption className="mt-5 text-center font-mono text-[0.7rem] uppercase tracking-[0.14em] text-ink-soft">
-              FIG. 01 · NATURE MORTE DE RÉDACTION : CLAVIER, ÉCRAN CATHODIQUE ET CARNET.
+              FIG. 01 · NATURE MORTE DE RÉDACTION : CLAVIER, ÉCRAN CATHODIQUE ET CARNET.
             </figcaption>
           </figure>
 
@@ -298,7 +298,7 @@ export default function Home() {
           </blockquote>
           <div aria-hidden="true" className="quote-rule mx-auto mt-8 h-[2px] w-40 bg-red" />
           <p className="mt-6 font-mono text-[0.7rem] uppercase tracking-[0.14em] text-ink-soft">
-            · LE RÉDACTEUR EN CHEF, ÉDITORIAL, P. 02
+            · LE RÉDACTEUR EN CHEF, ÉDITORIAL, P. 02
           </p>
           <p className="mt-10">
             <Link
@@ -325,7 +325,7 @@ export default function Home() {
               RÉDIGÉ, MAQUETTÉ ET CODÉ SANS AGENCE
             </p>
             <p className="font-mono text-[0.7rem] uppercase tracking-[0.14em]">
-              P. 01 · SUIVEZ LE FIL{NBSP}
+              P. 01 · SUIVEZ LE FIL{NBSP}
               <span aria-hidden="true" className="inline-block animate-arrow-bob text-red">↓</span>
             </p>
           </div>

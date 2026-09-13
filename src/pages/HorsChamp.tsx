@@ -139,13 +139,13 @@ export default function HorsChamp() {
       <div className="mx-auto max-w-container px-5 md:px-8">
         {/* Bandeau d'édition */}
         <p className="pt-4 font-mono text-[0.7rem] uppercase tracking-[0.14em] text-ink-soft">
-          {EDITION.dateline} · PAGE 06 / 07
+          {EDITION.dateline} · PAGE 06 / 07
         </p>
         <div aria-hidden="true" className="mt-3 border-t border-ink" />
 
         {/* ── Section 1 · En-tête ───────────────────────────────────────── */}
         <section className="pt-10 md:pt-14" aria-label="En-tête Hors-champ">
-          <p className="hc-kicker kicker text-red">HORS-CHAMP · PAGE 06</p>
+          <p className="hc-kicker kicker text-red">HORS-CHAMP · PAGE 06</p>
           <h1 className="hc-titre mt-4 font-display text-[clamp(2.6rem,6.5vw,6rem)] font-black leading-[0.95] tracking-[-0.02em]">
             <Words text="Ce qui se passe hors du cadre" />
           </h1>
@@ -172,11 +172,11 @@ export default function HorsChamp() {
               </div>
             </div>
             <figcaption className="mt-5 text-center font-mono text-[0.7rem] uppercase tracking-[0.14em] text-ink-soft">
-              FIG. 01 · DIMANCHE, 15 H. QUELQUE PART EN BANLIEUE.
+              FIG. 01 · DIMANCHE, 15 H. QUELQUE PART EN BANLIEUE.
             </figcaption>
           </figure>
           <div className="lg:col-span-6">
-            <p className="foot-txt kicker text-red">TERRAINS VAGUES · CHRONIQUE</p>
+            <p className="foot-txt kicker text-red">TERRAINS VAGUES · CHRONIQUE</p>
             <div aria-hidden="true" className="foot-kicker-rule mt-3 h-[1.5px] w-24 bg-red" />
             <h2 className="foot-txt mt-4 font-display text-[clamp(2rem,4vw,3.5rem)] font-black leading-[1.02] tracking-[-0.01em]">
               Le ballon avant le bitmap
@@ -193,7 +193,7 @@ export default function HorsChamp() {
         {/* ── Section 3 · Article 2 : Les jeux vidéo (Tarkov) ───────────── */}
         <section className="art-tarkov grid items-center gap-12 border-t border-ink/30 py-16 md:py-24 lg:grid-cols-12 lg:gap-6" aria-label="Article : les jeux vidéo">
           <div className="lg:col-span-6">
-            <p className="tarkov-txt kicker text-red">RAIDS NOCTURNES · CHRONIQUE</p>
+            <p className="tarkov-txt kicker text-red">RAIDS NOCTURNES · CHRONIQUE</p>
             <div aria-hidden="true" className="tarkov-kicker-rule mt-3 h-[1.5px] w-24 bg-red" />
             <h2 className="tarkov-txt mt-4 font-display text-[clamp(2rem,4vw,3.5rem)] font-black leading-[1.02] tracking-[-0.01em]">
               Tarkov, ou l'école de la tension
@@ -231,7 +231,7 @@ export default function HorsChamp() {
               </div>
             </div>
             <figcaption className="mt-5 text-center font-mono text-[0.7rem] uppercase tracking-[0.14em] text-ink-soft">
-              FIG. 02 · POSTE DE RAID, 2 H 14 DU MATIN.
+              FIG. 02 · POSTE DE RAID, 2 H 14 DU MATIN.
             </figcaption>
           </figure>
         </section>
