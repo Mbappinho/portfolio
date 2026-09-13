@@ -197,10 +197,10 @@ export default function Profil() {
         {/* ── Section 1 · En-tête d'article ────────────────────────────── */}
         <header>
           <p className="font-mono text-[0.7rem] uppercase tracking-[0.14em] text-ink-soft">
-            {EDITION.dateline} · PAGE 02 / 07
+            {EDITION.dateline} · PAGE 02 / 07
           </p>
           <div aria-hidden="true" className="prof-rule mt-3 border-t border-ink" />
-          <p className="prof-kicker kicker mt-10 text-red">ÉDITORIAL · PAGE 02</p>
+          <p className="prof-kicker kicker mt-10 text-red">ÉDITORIAL · PAGE 02</p>
           <h1 className="prof-title mt-4 font-display text-[clamp(2.6rem,6.5vw,6rem)] font-black leading-[0.95] tracking-[-0.02em]">
             <Words text="Le manifeste d'un profil hybride" />
           </h1>

@@ -55,14 +55,14 @@ export default function ProjetLocalisation() {
         {/* Dateline de page */}
         <div className="pt-4">
           <p className="font-mono text-[0.7rem] uppercase tracking-[0.14em] text-ink-soft">
-            {EDITION.dateline} · PAGE 04 / 07
+            {EDITION.dateline} · PAGE 04 / 07
           </p>
           <div aria-hidden="true" className="mt-3 border-t border-ink" />
         </div>
 
         {/* ── Section 1 · Hero de reportage ─────────────────────────── */}
         <ReportageHero
-          kicker="REPORTAGE N°1 · PAGE 04"
+          kicker="REPORTAGE N°1 · PAGE 04"
           title="Traduire l'intraduisible"
           subtitle={
             <>
@@ -73,7 +73,7 @@ export default function ProjetLocalisation() {
           }
           image="/assets/wttg3-hero.jpg"
           imageAlt="Écran d'ordinateur CRT dans une pièce sombre, interface texte de Welcome to the Game III, noir et blanc halftone"
-          caption="FIG. 01 · L'ANTRE DU JEU : UNE INTERFACE ENTIÈREMENT À REFAIRE PARLER FRANÇAIS."
+          caption="FIG. 01 · L'ANTRE DU JEU : UNE INTERFACE ENTIÈREMENT À REFAIRE PARLER FRANÇAIS."
           pastille="Open source"
           metas={[
             'RÔLE : TRADUCTEUR · DÉVELOPPEUR · ÉDITEUR',
@@ -153,7 +153,7 @@ export default function ProjetLocalisation() {
                 <FigureReveal
                   src="/assets/wttg3-tools.jpg"
                   alt="Flux de traduction en noir et blanc : extraits de fichiers texte, tableur de chaînes françaises, fenêtre de terminal"
-                  caption="FIG. 02 · LA CHAÎNE DE TRADUCTION : EXTRAIRE, TRADUIRE, RÉINJECTER."
+                  caption="FIG. 02 · LA CHAÎNE DE TRADUCTION : EXTRAIRE, TRADUIRE, RÉINJECTER."
                   className="mt-4"
                 />
               </Reveal>
@@ -280,7 +280,7 @@ export default function ProjetLocalisation() {
                 <FigureReveal
                   src="/assets/wttg3-github.jpg"
                   alt="Page de dépôt GitHub en noir et blanc halftone : README avec badges, liste de releases, étoiles"
-                  caption="FIG. 03 · LE DÉPÔT PUBLIC : PIPELINE, DICTIONNAIRES, RELEASES VERSIONNÉES."
+                  caption="FIG. 03 · LE DÉPÔT PUBLIC : PIPELINE, DICTIONNAIRES, RELEASES VERSIONNÉES."
                 />
               </Reveal>
             </div>
