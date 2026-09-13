@@ -45,10 +45,10 @@ export default function MiniScanner() {
       {/* En-tête de l'encart démo */}
       <div className="flex flex-wrap items-center justify-between gap-3 border-b-[1.5px] border-ink px-5 py-3">
         <p className="font-grotesk text-xs font-extrabold uppercase tracking-[0.22em]">
-          Mini-scanner · démo interactive
+          Mini-scanner · démo interactive
         </p>
         <p className="font-mono text-[0.65rem] uppercase tracking-[0.14em] text-ink-soft">
-          Données d'exemple · prix figés
+          Données d'exemple · prix figés
         </p>
       </div>
 
