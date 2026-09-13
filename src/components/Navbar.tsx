@@ -55,7 +55,7 @@ export default function Navbar({ onOpenSommaire }: NavbarProps) {
             className="group hidden items-center gap-2 font-grotesk text-[0.7rem] font-bold uppercase tracking-[0.14em] md:flex"
           >
             <span className="h-2.5 w-2.5 animate-pulse-soft bg-red" aria-hidden="true" />
-            <span className="link-ink">Disponible : Stage / Alternance</span>
+            <span className="link-ink">Disponible : Stage / Alternance</span>
           </Link>
           <button
             type="button"
