@@ -43,7 +43,7 @@ export default function Footer() {
             <p className="font-mono text-[0.7rem] uppercase leading-relaxed tracking-[0.14em] text-ink-soft">
               {EDITION.copyright}
               <br />
-              {EDITION.issn} · {EDITION.dateline}
+              {EDITION.issn} · {EDITION.dateline}
             </p>
           </div>
         </div>

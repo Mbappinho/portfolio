@@ -21,7 +21,7 @@ function StampInner({ text, subtext, size = 160, spin = false, tilt = -8, classN
   const uid = useId().replace(/[^a-zA-Z0-9]/g, '');
   const arcTop = `stamp-top-${uid}`;
   const arcBottom = `stamp-bottom-${uid}`;
-  const repeated = `${text} · ${text} · ${text} · `;
+  const repeated = `${text} · ${text} · ${text} · `;
   return (
     <svg
       width={size}

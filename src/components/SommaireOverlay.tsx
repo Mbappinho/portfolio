@@ -88,7 +88,7 @@ export default function SommaireOverlay({ open, onClose }: SommaireOverlayProps)
           {/* Pied d'overlay */}
           <div className="border-t border-paper/30 px-5 py-4 md:px-10">
             <div className="flex flex-wrap items-center justify-between gap-3 font-mono text-[0.7rem] uppercase tracking-[0.14em] text-paper/70">
-              <span>PRIX LIBRE · DÉPÔT LÉGAL {EDITION.date}</span>
+              <span>PRIX LIBRE · DÉPÔT LÉGAL {EDITION.date}</span>
               <span className="flex gap-5">
                 <a
                   href={IDENTITY.githubUrl}
