@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="120" viewBox="0 0 300 120" role="img" aria-label="Code-barres décoratif ISSN 2026-0001">
+  <g fill="#17140E">
+    <rect x="8"   y="8" width="3" height="72"/>
+    <rect x="14"  y="8" width="1.5" height="72"/>
+    <rect x="19"  y="8" width="5" height="72"/>
+    <rect x="27"  y="8" width="2" height="72"/>
+    <rect x="32"  y="8" width="1.5" height="72"/>
+    <rect x="37"  y="8" width="4" height="72"/>
+    <rect x="44"  y="8" width="2.5" height="72"/>
+    <rect x="50"  y="8" width="1.5" height="72"/>
+    <rect x="55"  y="8" width="6" height="72"/>
+    <rect x="64"  y="8" width="2" height="72"/>
+    <rect x="69"  y="8" width="3.5" height="72"/>
+    <rect x="76"  y="8" width="1.5" height="72"/>
+    <rect x="81"  y="8" width="4.5" height="72"/>
+    <rect x="89"  y="8" width="2" height="72"/>
+    <rect x="94"  y="8" width="1.5" height="72"/>
+    <rect x="99"  y="8" width="5" height="72"/>
+    <rect x="107" y="8" width="2.5" height="72"/>
+    <rect x="113" y="8" width="1.5" height="72"/>
+    <rect x="118" y="8" width="3" height="72"/>
+    <rect x="124" y="8" width="5.5" height="72"/>
+    <rect x="133" y="8" width="1.5" height="72"/>
+    <rect x="138" y="8" width="2" height="72"/>
+    <rect x="143" y="8" width="4" height="72"/>
+    <rect x="150" y="8" width="1.5" height="72"/>
+    <rect x="155" y="8" width="2.5" height="72"/>
+    <rect x="161" y="8" width="6" height="72"/>
+    <rect x="170" y="8" width="1.5" height="72"/>
+    <rect x="175" y="8" width="3" height="72"/>
+    <rect x="181" y="8" width="2" height="72"/>
+    <rect x="186" y="8" width="4.5" height="72"/>
+    <rect x="194" y="8" width="1.5" height="72"/>
+    <rect x="199" y="8" width="5" height="72"/>
+    <rect x="207" y="8" width="2" height="72"/>
+    <rect x="212" y="8" width="1.5" height="72"/>
+    <rect x="217" y="8" width="3.5" height="72"/>
+    <rect x="224" y="8" width="2.5" height="72"/>
+    <rect x="230" y="8" width="1.5" height="72"/>
+    <rect x="235" y="8" width="5" height="72"/>
+    <rect x="243" y="8" width="2" height="72"/>
+    <rect x="248" y="8" width="4" height="72"/>
+    <rect x="255" y="8" width="1.5" height="72"/>
+    <rect x="260" y="8" width="2.5" height="72"/>
+    <rect x="266" y="8" width="5.5" height="72"/>
+    <rect x="275" y="8" width="1.5" height="72"/>
+    <rect x="280" y="8" width="3" height="72"/>
+    <rect x="286" y="8" width="2" height="72"/>
+    <rect x="291" y="8" width="1.5" height="72"/>
+  </g>
+  <text x="150" y="102" text-anchor="middle" font-family="'Space Mono', monospace" font-size="14" letter-spacing="4" fill="#17140E">ISSN 2026-0001</text>
+</svg>
