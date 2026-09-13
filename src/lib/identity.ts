@@ -23,10 +23,10 @@ export const IDENTITY = {
 export const EDITION = {
   numero: 'N°1',
   date: 'SEPTEMBRE 2026',
-  dateline: 'ÉDITION N°1 · SEPTEMBRE 2026',
+  dateline: 'ÉDITION N°1 · SEPTEMBRE 2026',
   issn: 'ISSN 2026-0001',
   baseline: 'Revue personnelle publiée à tirage unique.',
-  copyright: '© MMXXVI · REPRODUCTION INTERDITE, DIFFUSION ENCOURAGÉE',
+  copyright: '© MMXXVI · REPRODUCTION INTERDITE, DIFFUSION ENCOURAGÉE',
 } as const;
 
 export interface PageRef {
