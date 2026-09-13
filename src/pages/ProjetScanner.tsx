@@ -46,14 +46,14 @@ export default function ProjetScanner() {
         {/* Dateline de page */}
         <div className="pt-4">
           <p className="font-mono text-[0.7rem] uppercase tracking-[0.14em] text-ink-soft">
-            {EDITION.dateline} · PAGE 05 / 07
+            {EDITION.dateline} · PAGE 05 / 07
           </p>
           <div aria-hidden="true" className="mt-3 border-t border-ink" />
         </div>
 
         {/* ── Section 1 · Hero de reportage ─────────────────────────── */}
         <ReportageHero
-          kicker="REPORTAGE N°2 · PAGE 05"
+          kicker="REPORTAGE N°2 · PAGE 05"
           title="L'économie du troc"
           subtitle={
             <>
@@ -64,10 +64,10 @@ export default function ProjetScanner() {
           }
           image="/assets/tarkov-hero.jpg"
           imageAlt="Nature morte noir et blanc façon inventaire de jeu : objets de troc disposés en grille avec étiquettes de prix, halftone"
-          caption="FIG. 01 · UN INVENTAIRE N'EST PAS UN FOURBI : C'EST UN PORTEFEUILLE."
+          caption="FIG. 01 · UN INVENTAIRE N'EST PAS UN FOURBI : C'EST UN PORTEFEUILLE."
           pastille="Application web"
           metas={[
-            'RÔLE : CONCEPTION · DÉVELOPPEMENT · PUBLICATION',
+            'RÔLE : CONCEPTION · DÉVELOPPEMENT · PUBLICATION',
             'STACK : HTML, JAVASCRIPT, DONNÉES DE MARCHÉ, GITHUB PAGES',
             'STATUT : EN LIGNE',
           ]}
@@ -127,7 +127,7 @@ export default function ProjetScanner() {
                 <FigureReveal
                   src="/assets/tarkov-ui.jpg"
                   alt="Maquette noir et blanc de l'interface du Barter Scanner : tableau de rentabilité, flèches en hachures, barres de progression"
-                  caption="FIG. 02 · LE TABLEAU DES ÉCHANGES, TRIÉ PAR MARGE."
+                  caption="FIG. 02 · LE TABLEAU DES ÉCHANGES, TRIÉ PAR MARGE."
                 />
               </Reveal>
             </div>
@@ -240,7 +240,7 @@ export default function ProjetScanner() {
                 </a>
               </div>
               <p className="mt-4 font-mono text-[0.7rem] uppercase tracking-[0.14em] text-ink-soft">
-                {IDENTITY.github} · pages.github.io
+                {IDENTITY.github} · pages.github.io
               </p>
             </Reveal>
           </div>
