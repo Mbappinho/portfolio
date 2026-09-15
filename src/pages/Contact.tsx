@@ -7,7 +7,7 @@ import { Github, Mail } from 'lucide-react';
 import Folio from '@/components/Folio';
 import Marquee from '@/components/Marquee';
 import CopyButton from '@/components/contact/CopyButton';
-import { EDITION, IDENTITY } from '@/lib/identity';
+import { asset, EDITION, IDENTITY } from '@/lib/identity';
 import { useReducedMotion } from '@/hooks/use-reduced-motion';
 import { cn } from '@/lib/utils';
 
@@ -186,7 +186,7 @@ export default function Contact() {
           </p>
           {/* Tampon « DISPONIBLE » réutilisé en petit */}
           <img
-            src="/assets/stamp-dispo.svg"
+            src={asset('stamp-dispo.svg')}
             alt=""
             aria-hidden="true"
             width={400}
@@ -281,7 +281,7 @@ export default function Contact() {
           </blockquote>
           <div className="ct-barcode mt-10 inline-block">
             <img
-              src="/assets/barcode.svg"
+              src={asset('barcode.svg')}
               alt="Code-barres décoratif, ISSN 2026-0001"
               width={300}
               height={120}
