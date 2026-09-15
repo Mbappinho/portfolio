@@ -13,7 +13,7 @@ import Checklist from '@/components/reportages/Checklist';
 import EncartChiffre from '@/components/reportages/EncartChiffre';
 import ResultatsBandeau from '@/components/reportages/ResultatsBandeau';
 import PoursuivreLecture from '@/components/reportages/PoursuivreLecture';
-import { EDITION, IDENTITY } from '@/lib/identity';
+import { asset, EDITION, IDENTITY } from '@/lib/identity';
 
 const NBSP = ' ';
 
@@ -71,7 +71,7 @@ export default function ProjetLocalisation() {
               public et releases rebuildées après chaque mise à jour Steam.
             </>
           }
-          image="/assets/wttg3-hero.jpg"
+          image={asset('wttg3-hero.jpg')}
           imageAlt="Écran d'ordinateur CRT dans une pièce sombre, interface texte de Welcome to the Game III, noir et blanc halftone"
           caption="FIG. 01 · L'ANTRE DU JEU : UNE INTERFACE ENTIÈREMENT À REFAIRE PARLER FRANÇAIS."
           pastille="Open source"
@@ -151,7 +151,7 @@ export default function ProjetLocalisation() {
               </Reveal>
               <Reveal delay={0.15}>
                 <FigureReveal
-                  src="/assets/wttg3-tools.jpg"
+                  src={asset('wttg3-tools.jpg')}
                   alt="Flux de traduction en noir et blanc : extraits de fichiers texte, tableur de chaînes françaises, fenêtre de terminal"
                   caption="FIG. 02 · LA CHAÎNE DE TRADUCTION : EXTRAIRE, TRADUIRE, RÉINJECTER."
                   className="mt-4"
@@ -278,7 +278,7 @@ export default function ProjetLocalisation() {
             <div className="lg:col-start-5 lg:col-span-8">
               <Reveal>
                 <FigureReveal
-                  src="/assets/wttg3-github.jpg"
+                  src={asset('wttg3-github.jpg')}
                   alt="Page de dépôt GitHub en noir et blanc halftone : README avec badges, liste de releases, étoiles"
                   caption="FIG. 03 · LE DÉPÔT PUBLIC : PIPELINE, DICTIONNAIRES, RELEASES VERSIONNÉES."
                 />
