@@ -151,7 +151,7 @@ export default function HorsChamp() {
           </h1>
           <p className="hc-chapo mt-6 max-w-[62ch] font-body text-[clamp(1.05rem,1.6vw,1.35rem)] italic leading-snug text-ink-soft">
             Un rédacteur en chef ne vit pas que de dépôts et de filets. Trois passions, trois
-            articles de fond${NBSP}: le football, les raids de Tarkov, et quelques livres qui
+            articles de fond{NBSP}: le football, les raids de Tarkov, et quelques livres qui
             dérangent.
           </p>
           <div aria-hidden="true" className="hc-rule mt-8 border-t-[3px] border-double border-ink" />
@@ -183,7 +183,7 @@ export default function HorsChamp() {
             </h2>
             <p className="foot-txt mt-6 max-w-[58ch] font-body text-[clamp(1rem,1.15vw,1.125rem)] leading-[1.65]">
               Avant les écrans, il y avait le terrain. Le football apprend ce qu'aucun tutoriel
-              n'enseigne${NBSP}: jouer collectif, perdre et recommencer le dimanche suivant, lire un
+              n'enseigne{NBSP}: jouer collectif, perdre et recommencer le dimanche suivant, lire un
               espace en mouvement. Le jeu et la culture (les tribunes, les chants, les feuilles de
               match griffonnées) comptent autant que le score.
             </p>
@@ -199,9 +199,9 @@ export default function HorsChamp() {
               Tarkov, ou l'école de la tension
             </h2>
             <p className="tarkov-txt mt-6 max-w-[58ch] font-body text-[clamp(1rem,1.15vw,1.125rem)] leading-[1.65]">
-              En ce moment, <em>Escape from Tarkov</em>. Un jeu qui ne pardonne rien${NBSP}: chaque
-              raid est une prise de risque documentée${NBSP}: ce qu'on emporte, ce qu'on accepte de
-              perdre. C'est aussi lui qui a inspiré le reportage de la page 05 de ce numéro${NBSP}:
+              En ce moment, <em>Escape from Tarkov</em>. Un jeu qui ne pardonne rien{NBSP}: chaque
+              raid est une prise de risque documentée{NBSP}: ce qu'on emporte, ce qu'on accepte de
+              perdre. C'est aussi lui qui a inspiré le reportage de la page 05 de ce numéro{NBSP}:
               quand un jeu devient un terrain d'étude, la passion paie le loyer intellectuel.
             </p>
             <ul className="tarkov-txt mt-6 space-y-2">
@@ -254,7 +254,7 @@ export default function HorsChamp() {
             data-cursor="LIRE"
             className="group flex items-baseline justify-between gap-4 py-8 font-display text-[clamp(1.6rem,4vw,3rem)] font-black italic leading-tight transition-colors hover:text-red md:py-10"
           >
-            <span>Dernière page${NBSP}: le colophon</span>
+            <span>Dernière page{NBSP}: le colophon</span>
             <span aria-hidden="true" className="inline-block text-red transition-transform duration-300 group-hover:translate-x-3">→</span>
           </Link>
         </nav>
