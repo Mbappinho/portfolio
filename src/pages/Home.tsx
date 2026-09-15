@@ -4,7 +4,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
 import Marquee from '@/components/Marquee';
-import { IDENTITY, SOMMAIRE } from '@/lib/identity';
+import { asset, IDENTITY, SOMMAIRE } from '@/lib/identity';
 import { useReducedMotion } from '@/hooks/use-reduced-motion';
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
@@ -234,7 +234,7 @@ export default function Home() {
                 />
               </div>
               <img
-                src="/assets/stamp-dispo.svg"
+                src={asset('stamp-dispo.svg')}
                 alt=""
                 aria-hidden="true"
                 className="portrait-stamp absolute -right-[8%] -top-[6%] w-[28%] -rotate-12"
@@ -320,7 +320,7 @@ export default function Home() {
         {/* ── Section 6 · Barre de bas de couverture ───────────────────── */}
         <section className="cover-bar border-t-2 border-ink py-5" aria-label="Barre de bas de couverture">
           <div className="flex flex-wrap items-center justify-between gap-6">
-            <img src="/assets/barcode.svg" alt="Code-barres décoratif, ISSN 2026-0001" className="h-14 w-auto" />
+            <img src={asset('barcode.svg')} alt="Code-barres décoratif, ISSN 2026-0001" className="h-14 w-auto" />
             <p className="font-mono text-[0.7rem] uppercase tracking-[0.14em] text-ink-soft">
               RÉDIGÉ, MAQUETTÉ ET CODÉ SANS AGENCE
             </p>

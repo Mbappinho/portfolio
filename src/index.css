@@ -77,7 +77,7 @@
     inset: 0;
     z-index: 90;
     pointer-events: none;
-    background-image: url('/assets/grain.svg');
+    background-image: url('./grain.svg');
     background-size: 400px 400px;
     opacity: 0.5;
     mix-blend-mode: multiply;
