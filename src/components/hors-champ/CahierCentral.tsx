@@ -4,6 +4,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
 import Stamp from '@/components/Stamp';
 import { useReducedMotion } from '@/hooks/use-reduced-motion';
+import { asset } from '@/lib/identity';
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
@@ -101,7 +102,7 @@ export default function CahierCentral() {
         <div
           aria-hidden="true"
           className="pointer-events-none absolute inset-0 opacity-25 mix-blend-screen"
-          style={{ backgroundImage: "url('/assets/grain.svg')", backgroundSize: '400px 400px' }}
+          style={{ backgroundImage: `url('${asset('grain.svg')}')`, backgroundSize: '400px 400px' }}
         />
         <div className="relative mx-auto max-w-container px-5 py-16 md:px-8 md:py-24">
           <div className="grid items-center gap-12 lg:grid-cols-12 lg:gap-6">
@@ -125,7 +126,7 @@ export default function CahierCentral() {
             <figure className="relative lg:col-span-6">
               <div className="cahier-clip overflow-hidden border-[1.5px] border-paper">
                 <img
-                  src="/assets/marx-books.jpg"
+                  src={asset('marx-books.jpg')}
                   alt="Pile de livres de philosophie en noir et blanc halftone, avec un crayon et un carnet, lumière latérale dramatique"
                   width={1200}
                   height={900}

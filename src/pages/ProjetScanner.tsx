@@ -12,7 +12,7 @@ import EncartChiffre from '@/components/reportages/EncartChiffre';
 import ResultatsBandeau from '@/components/reportages/ResultatsBandeau';
 import PoursuivreLecture from '@/components/reportages/PoursuivreLecture';
 import MiniScanner from '@/components/reportages/MiniScanner';
-import { EDITION, IDENTITY } from '@/lib/identity';
+import { asset, EDITION, IDENTITY } from '@/lib/identity';
 
 const NBSP = ' ';
 
@@ -62,7 +62,7 @@ export default function ProjetScanner() {
               rentables, à l'instant où on les consulte{NBSP}?
             </>
           }
-          image="/assets/tarkov-hero.jpg"
+          image={asset('tarkov-hero.jpg')}
           imageAlt="Nature morte noir et blanc façon inventaire de jeu : objets de troc disposés en grille avec étiquettes de prix, halftone"
           caption="FIG. 01 · UN INVENTAIRE N'EST PAS UN FOURBI : C'EST UN PORTEFEUILLE."
           pastille="Application web"
@@ -125,7 +125,7 @@ export default function ProjetScanner() {
             <div className="lg:col-start-4 lg:col-span-9">
               <Reveal>
                 <FigureReveal
-                  src="/assets/tarkov-ui.jpg"
+                  src={asset('tarkov-ui.jpg')}
                   alt="Maquette noir et blanc de l'interface du Barter Scanner : tableau de rentabilité, flèches en hachures, barres de progression"
                   caption="FIG. 02 · LE TABLEAU DES ÉCHANGES, TRIÉ PAR MARGE."
                 />
