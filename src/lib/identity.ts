@@ -1,4 +1,10 @@
 /**
+ * Résout l'URL d'un asset statique (public/assets/) en respectant la base
+ * Vite (racine en preview Kimi, /portfolio/ sur GitHub Pages).
+ */
+export const asset = (file: string): string => `${import.meta.env.BASE_URL}assets/${file}`;
+
+/**
  * Identité centralisée du site.
  * Toute l'identité visible du site transite par ce fichier.
  */
@@ -12,9 +18,9 @@ export const IDENTITY = {
   /** Logotype (barre de une, footer) */
   logotype: 'TB.',
   /** Portrait halftone (page Profil) */
-  photo: '/assets/portrait.jpg',
+  photo: asset('portrait.jpg'),
   /** Visuel de couverture : nature morte de rédaction, halftone N&B */
-  couverture: '/assets/couverture-hero.jpg',
+  couverture: asset('couverture-hero.jpg'),
   email: 'theo25pro@gmail.com',
   github: 'github.com/Mbappinho',
   githubUrl: 'https://github.com/Mbappinho',
